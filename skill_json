@@ -1,0 +1,130 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "shop",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "stop",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "select_item",
+                    "slots": [
+                        {
+                            "name": "choices",
+                            "type": "choices"
+                        }
+                    ],
+                    "samples": [
+                        "{choices}",
+                        "i need {choices}"
+                    ]
+                },
+                {
+                    "name": "shop_select",
+                    "slots": [
+                        {
+                            "name": "shop_choice",
+                            "type": "shop_choice"
+                        }
+                    ],
+                    "samples": [
+                        "order from {shop_choice}",
+                        "{shop_choice}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "choices",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "laptop"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "notebook"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "shop_choice",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "tech zone"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tech yuva"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rex"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "moskins"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ovatica"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dhanya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sun technologies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "it solutions"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
