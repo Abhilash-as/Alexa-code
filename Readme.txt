@@ -6,3 +6,5 @@ copy lambda_function.py to  aws.console.com>>>sign in>> create function >> selec
 configure alexa skill id in aws console
 configure endpoint in alexa skill kit
 create a database named shop including shop_id , shop_name ,items
+
+
